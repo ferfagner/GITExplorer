@@ -1,13 +1,13 @@
-import { TaskList } from './components/TaskList'
-import { Header } from "./components/Header";
-import './styles/global.scss'
-
+import './style/global.scss'
+import { RepositoryList } from './components/RepositoryList'
+import { Header } from './Header'
 
 export function App() {
   return (
     <>
-      <Header />
-      <TaskList />
+    <Header/>
+    <RepositoryList />
+      
     </>
   )
 }
